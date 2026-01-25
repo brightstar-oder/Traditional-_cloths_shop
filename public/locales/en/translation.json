@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "portfolio": "Our Products",
+    "contact": "Contact Us",
+    "language": "Language"
+  },
+
+  "home": {
+    "title": "Welcome to Our Website",
+    "subtitle": "We build modern digital solutions"
+  },
+
+  "about": {
+    "title": "About Us",
+    "description": "We are a creative and professional team"
+  },
+
+  "portfolio": {
+    "title": "Our Work"
+  },
+
+  "contact": {
+    "title": "Get in Touch"
+  }
+}

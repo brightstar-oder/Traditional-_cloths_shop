@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "home": "መእተዊ",
+    "about": "ስለ እኛ",
+    "portfolio": "ምርቶቻችን",
+    "contact": "አድራሻችን",
+    "language": "ቋንቋ"
+  },
+
+  "home": {
+    "title": "እንኳን ወደ ድረ ገጻችን በደህና መጡ",
+    "subtitle": "ዘመናዊ ዲጂታል መፍትሄዎችን እንገነባለን"
+  },
+
+  "about": {
+    "title": "ስለ እኛ",
+    "description": "ፈጣሪ እና ባለሙያ ቡድን ነን"
+  },
+
+  "portfolio": {
+    "title": "ስራዎቻችን"
+  },
+
+  "contact": {
+    "title": "ያግኙን"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "mraf-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@dicebear/avatars": "^4.10.8",
+    "@dicebear/avatars-initials-sprites": "^4.10.8",
+    "@tailwindcss/vite": "^4.1.18",
+    "aos": "^2.3.4",
+    "framer-motion": "^12.25.0",
+    "i18next": "^25.8.0",
+    "i18next-browser-languagedetector": "^8.2.0",
+    "react": "^19.2.0",
+    "react-avatar": "^5.0.4",
+    "react-dom": "^19.2.0",
+    "react-i18next": "^16.5.3",
+    "react-icons": "^5.5.0",
+    "react-parallax-tilt": "^1.7.315",
+    "react-router-dom": "^7.11.0",
+    "react-type-animation": "^3.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@vitejs/plugin-react": "^5.1.2",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "vite": "^7.2.4"
+  }
+}
