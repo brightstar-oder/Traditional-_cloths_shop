@@ -1,5 +1,6 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
+import img1 from "../../assets/imagee4.jpg";
 
 export default function Card({ title, description, icon, isFeatured, children }) {
   return (
@@ -20,11 +21,7 @@ export default function Card({ title, description, icon, isFeatured, children })
       >
         {/* Body */}
         <div className="p-8 flex-1 text-center">
-          {icon && (
-            <div className={`mb-4 transition-transform duration-500 ${isFeatured ? "scale-125" : "group-hover:scale-110"}`}>
-              {icon}
-            </div>
-          )}
+          <img src={img1}  alt="" className="w-full md:w-1/3 object-cover rounded-lg h-80" />
           <h3 className="text-xl font-semibold mb-2">{title}</h3>
           <p className="text-gray-100 text-sm">{description}</p>
         </div>

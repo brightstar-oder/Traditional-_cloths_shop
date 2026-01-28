@@ -112,13 +112,13 @@ export default function Contact() {
 
       {/* Heading */}
       <h2 className="text-5xl font-bold mb-16 relative z-10" data-aos="fade-up">
-        Ready to visit us?
+        ለመጎብኘት ዝግጁ ነዉት?
         <span className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-accent to-pink-500 rounded-full"></span>
       </h2>
 
       {/* Subheading */}
       <p className="text-gray-300 mb-12 max-w-xl mx-auto relative z-10" data-aos="fade-up" data-aos-delay="100">
-        Let’s bring your idea to life. Contact <span className="font-semibold text-white">ጉለሌ የገበያ ማዕከል</span> today!
+        ምን ይፈልጋሉ? ወደ <span className="font-semibold text-white">ጉለሌ የገበያ ማዕከል</span> ይደዉሉ!
       </p>
 
       {/* Buttons */}
@@ -127,7 +127,7 @@ export default function Contact() {
           <div className="absolute -inset-0.5 bg-gradient-to-r from-accent to-pink-500 rounded-lg blur opacity-50 transition duration-300 group-hover:opacity-100 group-hover:scale-105 animate-gradient-x"></div>
           <button className="relative flex items-center gap-2 px-8 py-3 bg-gray-900 text-white rounded-lg font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
             <HiMail className="w-5 h-5 transition-transform duration-300 group-hover:rotate-12" />
-            Contact Us
+            ያግኙን
           </button>
         </a>
 
@@ -135,7 +135,7 @@ export default function Contact() {
           <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-blue-400 rounded-lg blur opacity-50 transition duration-300 group-hover:opacity-100 group-hover:scale-105 animate-gradient-x"></div>
           <button className="relative flex items-center gap-2 px-8 py-3 bg-gray-900 text-blue-500 border border-blue-500 rounded-lg font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-xl hover:text-white">
             <HiPhone className="w-5 h-5 transition-transform duration-300 group-hover:rotate-12" />
-            Call Now
+            ይደዉሉ
           </button>
         </a>
 
@@ -143,7 +143,7 @@ export default function Contact() {
           <div className="absolute -inset-0.5 bg-gradient-to-r from-green-400 to-green-600 rounded-lg blur opacity-50 transition duration-300 group-hover:opacity-100 group-hover:scale-105 animate-gradient-x"></div>
           <button className="relative flex items-center gap-2 px-8 py-3 bg-gray-900 text-green-500 border border-green-500 rounded-lg font-medium transform transition-all duration-300 hover:scale-105 hover:shadow-xl hover:text-white">
             <HiChat className="w-5 h-5 transition-transform duration-300 group-hover:rotate-12" />
-            Chat on WhatsApp
+            በዋሳፕ ያግኙን
           </button>
         </a>
       </div>
@@ -160,7 +160,7 @@ export default function Contact() {
       <div className="max-w-3xl mx-auto rounded-lg overflow-hidden shadow-lg mt-12 relative z-10" data-aos="fade-up" data-aos-delay="600">
         <iframe
           title="Gulele market center"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12773.847173003325!2d38.7676114!3d9.0286635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8597f44b7f77%3A0x1a2e5b1b9c8a0f7d!2sLideta%20Sdst%20kilo%2C%20Addis%20Ababa!5e0!3m2!1sen!2set!4v1702332000000!5m2!1sen!2set"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12773.847173003325!2d38.7676114!3d9.0286635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8597f44b7f77%3A0x1a2e5b1b9c8a0f7d!2sGulele%20Gulele%2C%20Addis%20Ababa!5e0!3m2!1sen!2set!4v1702332000000!5m2!1sen!2set"
           width="100%"
           height="350"
           className="border-0"

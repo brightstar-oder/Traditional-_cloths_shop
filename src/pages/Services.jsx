@@ -10,17 +10,17 @@ import {
 } from "react-icons/hi";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import img1 from "../assets/photo_2026-01-22_14-31-50.jpg";
-import img3 from "../assets/photo_2026-01-25_16-23-20.jpg";
-import img4 from "../assets/photo_2026-01-25_16-20-59.jpg";
+import img1 from "../assets/image10.jpg";
+import img3 from "../assets/imagee4.jpg";
+import img4 from "../assets/imagee13.jpg";
 
 const services = [
-  { title: "web app", description: "High-quality video editing tailored to your brand.", icon: <HiVideoCamera /> },
-  { title: "mobile app", description: "Creative graphic designs for modern brands.", icon: <HiColorSwatch /> },
-  { title: "website", description: "Engaging motion graphics and animations.", icon: <HiFilm /> },
-  { title: "telegram bot", description: "Professional social media strategies.", icon: <HiChat /> },
-  { title: "AI automation", description: "Complete brand identity and visual systems.", icon: <HiPhotograph /> },
-  { title: "Content Creation", description: "High-impact content for digital platforms.", icon: <HiPencilAlt /> },
+  { title: "ባህላዊ አልባሳት", description: "High-quality video editing tailored to your brand." },
+  { title: "ባህላዊ ጫማ", description: "Creative graphic designs for modern brands." },
+  { title: "ባህላዊ ጌጣጌጦች", description: "Engaging motion graphics and animations." },
+  { title: "ባህላዊ ነጠላዎች", description: "Professional social media strategies."},
+  { title: "ባህላዊ ", description: "Complete brand identity and visual systems."},
+  { title: "Content Creation", description: "High-impact content for digital platforms." },
 ];
 
 export default function Services() {

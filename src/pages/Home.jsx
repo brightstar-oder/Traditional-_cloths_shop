@@ -2,10 +2,9 @@ import React, { useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import img1 from "../assets/photo_2026-01-22_14-31-50.jpg";
-import img3 from "../assets/photo_2026-01-25_16-23-20.jpg";
-import img4 from "../assets/photo_2026-01-25_16-20-59.jpg";
-import img5 from "../assets/photo_2026-01-25_16-23-20.jpg";
+import img1 from "../assets/image10.jpg";
+import img3 from "../assets/imagee4.jpg";
+import img4 from "../assets/imagee13.jpg";
 export default function Hero() {
   const navigate = useNavigate();
 
@@ -27,8 +26,8 @@ export default function Hero() {
         className="text-5xl md:text-6xl font-bold mb-6 relative"
         data-aos="fade-up"
       >
-        ጉለሌ <span className="text-blue-500">የገበያ ማዕከል</span> to{" "}
-        <span className="text-purple-500">መሸጫ</span>
+        ጉለሌ <span className="text-blue-500">የገበያ ማዕከል</span>{" "}
+        <span className="text-purple-500"> ባህላዊ ልብሶች መሸጫ</span>
         <span className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-32 h-1 from-accent to-pink-500 rounded-full"></span>
       </h1>
 
@@ -38,7 +37,7 @@ export default function Hero() {
         data-aos="fade-up"
         data-aos-delay="100"
       >
-        አስተማማኝ እና ህጋዊ አገልግሎት በጥራት
+        የተለያዩ የባህላዊ ልብስ አይነቶች እዚህ ይገኛሉ
       </p>
 
       {/* Buttons */}

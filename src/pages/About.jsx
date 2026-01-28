@@ -12,56 +12,56 @@ import henokPhoto from "../assets/ሙዝ1.jpg";
 const leadership = [
   {
     name: "Berihu (Brightstar)",
-    role: "UI/UX",
+    role: "ሻጭ",
     photo: berihuPhoto,
     description:
-      "ድረ ገጽና ሲስተም አልሚ",
+      "የድርጅቱ ሃላፊ",
   },
   {
     name: "Muez",
-    role: "ድህረ ሲስተም",
+    role: "ሻጭ",
     photo: hadushPhoto,
     description:
-      "ድረ ገጽና ሲስተም አልሚ",
+      "የድርጅቱ ሃላፊ",
   },
   {
     name: "Muez",
-    role: "ሞባይል መተግበርያ",
+    role: "ሃላፊ",
     photo: henokPhoto,
     description:
-      "ድረ ገጽና ሲስተም አልሚ",
+      "የድርጅቱ ፋይናንስ",
   },
 ];
 
 const teamMembers = [
-  { name: "web and developer ", role: "Developers", photo: "https://i.pravatar.cc/150?img=1" },
-  { name: "web and developer", role: "Developers", photo: "https://i.pravatar.cc/150?img=2" },
-  { name: "web and developer", role: "Developers", photo: "https://i.pravatar.cc/150?img=3" },
-  { name: "web and developer", role: "Developers", photo: "https://i.pravatar.cc/150?img=4" },
-  { name: "web and developer", role: "Developers", photo: "https://i.pravatar.cc/150?img=5" },
-  { name: "web and developer", role: "Developers", photo: "https://i.pravatar.cc/150?img=6" },
-  { name: "web and developer", role: "Developers", photo: "https://i.pravatar.cc/150?img=7" },
+  { name: "የድርጅቱ ባለ ዋና", role: "መስራች", photo: "https://i.pravatar.cc/150?img=1" },
+  { name: "የድርጅቱ ባለ ዋና", role: "መስራች", photo: "https://i.pravatar.cc/150?img=2" },
+  { name: "የድርጅቱ ባለ ዋና", role: "መስራች", photo: "https://i.pravatar.cc/150?img=3" },
+  { name: "የድርጅቱ ባለ ዋና", role: "መስራች", photo: "https://i.pravatar.cc/150?img=4" },
+  { name: "የድርጅቱ ባለ ዋና", role: "መስራች", photo: "https://i.pravatar.cc/150?img=5" },
+  { name: "የድርጅቱ ባለ ዋና", role: "መስራች", photo: "https://i.pravatar.cc/150?img=6" },
+  { name: "የድርጅቱ ባለ ዋና", role: "መስራች", photo: "https://i.pravatar.cc/150?img=7" },
 ];
 
 const infoCards = [
   {
-    title: "Our Vision",
+    title: "ራዕይ",
     description:
-      "To become a globally trusted multimedia brand, recognized for creativity, quality, and innovation.",
+      "በአገራችን ግዙፍና ብቁ የደንበኞች አገልግሎት መስጠት",
     gradient: "from-blue-600 to-purple-600",
     icon: <FaEye className="text-white w-8 h-8 mb-4 mx-auto transition-transform duration-300" />,
   },
   {
-    title: "Our Mission",
+    title: "ተለዕኮ",
     description:
-      "Deliver high-quality multimedia productions while leveraging technology to streamline projects and exceed client expectations.",
+      "በአገራችን ትክክለኛና የታመነ አገልግሎት መስጠት",
     gradient: "from-pink-500 to-red-500",
     icon: <FaBullseye className="text-white w-8 h-8 mb-4 mx-auto transition-transform duration-300" />,
   },
   {
-    title: "Core Values",
+    title: "ዋና ትኩረት",
     description:
-      "Creativity, Precision, Innovation, Reliability, and Client Satisfaction guide every project we undertake.",
+      "ኃቀኝነት፣ ተደራሽነት፣ ታማኝነት፣ ጥራት",
     gradient: "from-green-500 to-teal-500",
     icon: <FaStar className="text-white w-8 h-8 mb-4 mx-auto transition-transform duration-300" />,
   },
@@ -82,9 +82,9 @@ export default function AboutPage() {
           data-aos="fade-up"
         >
           <h1 className="text-4xl md:text-5xl font-extrabold mb-6 text-blue-400">
-            ጉለሌ የገበያ ማዕከል          </h1>
+            ጉለሌ ግዙፍ የገበያ ማዕከል</h1>
           <p className="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed">
-            አስተማማኝ እና ህጋዊ አገልግሎት በጥራት
+            የተለያዩ አይነት ባህላዊ አልባሳት ከኛ ጋር ይገኛሉ
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <a
@@ -110,7 +110,7 @@ export default function AboutPage() {
           className="text-4xl md:text-5xl font-extrabold text-center mb-16 text-white"
           data-aos="fade-up"
         >
-          Our Leadership
+          አመራሮችን
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 justify-items-center">
@@ -146,7 +146,7 @@ export default function AboutPage() {
       {/* Team Section */}
       <section className="py-24">
         <h2 className="text-4xl font-bold text-center mb-16" data-aos="fade-up">
-          Our Team
+          ድርጅታችን
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
           {teamMembers.map((member, idx) => (

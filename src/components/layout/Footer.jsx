@@ -41,7 +41,7 @@ export default function Footer({ darkMode = true }) {
     alt="MRAF Multimedia Logo"
     className="h-20 w-20 md:h-32 md:w-32 rounded-full object-cover border border-white/20 shadow-md mb-3"
   />
-  <h2 className="text-2xl md:text-3xl font-bold mb-1">ጉለሌ የገበያ ማዕከል</h2>
+  <h2 className="text-2xl md:text-3xl font-bold mb-1">ጉለሌ ግዙፍ የገበያ ማዕከል</h2>
   <p className={`text-center md:text-left ${grayText}`}>
     ይምጡ ይጎበኙን
   </p>
