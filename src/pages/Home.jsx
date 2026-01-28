@@ -46,9 +46,9 @@ export default function Hero() {
         className=" flex-col max-w-10xl mx-auto px-6 py-4" 
       >
 <div className="flex flex-col md:flex-row gap-4 md:gap-6 w-full">
-  <img src={img1}  alt="" className="w-full md:w-1/3 object-cover rounded-lg" />
-  <img src={img3} alt="" className="w-full md:w-1/3 object-cover rounded-lg" />
-  <img src={img4} alt="" className="w-full md:w-1/3 object-cover rounded-lg" />
+  <img src={img1}  alt="" className="w-full md:w-1/3 object-cover rounded-lg h-130" />
+  <img src={img3} alt="" className="w-full md:w-1/3 object-cover rounded-lg h-130" />
+  <img src={img4} alt="" className="w-full md:w-1/3 object-cover rounded-lg h-130" />
 </div>
 <div className="mt-6 flex justify-center">
 <Link to="/Service">

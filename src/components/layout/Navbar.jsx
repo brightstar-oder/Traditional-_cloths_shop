@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { HiMenu, HiX, HiLockClosed } from "react-icons/hi";
-import logo from "../../assets/photo_2026-01-22_14-31-50.jpg";
+import logo from "../../assets/photo_2026-01-28_06-07-29.jpg";
 
 
 

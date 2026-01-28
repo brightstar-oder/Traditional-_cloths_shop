@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {FaFacebook, FaWhatsapp, FaTelegramPlane, FaInstagram } from "react-icons/fa";
-import logo from "../../assets/photo_2026-01-22_14-31-50.jpg";
+import logo from "../../assets/photo_2026-01-28_06-07-29.jpg";
 
 export default function Footer({ darkMode = true }) {
   useEffect(() => {
@@ -41,12 +41,12 @@ export default function Footer({ darkMode = true }) {
     alt="MRAF Multimedia Logo"
     className="h-20 w-20 md:h-32 md:w-32 rounded-full object-cover border border-white/20 shadow-md mb-3"
   />
-  <h2 className="text-2xl md:text-3xl font-bold mb-1">መገናኛ ባሕላዊ አልባሳት</h2>
+  <h2 className="text-2xl md:text-3xl font-bold mb-1">ጉለሌ የገበያ ማዕከል</h2>
   <p className={`text-center md:text-left ${grayText}`}>
-    የተመረጡ ባህላዊ አልባሳት በኛ ይገኛሉ። ይምጡ ይጎበኙን
+    ይምጡ ይጎበኙን
   </p>
   <p className={`text-center md:text-left ${grayText} mt-1`}>
-    📍 ቦሌ, አዲስ አበባ
+    📍 ስድስት ኪሎ(የአሜሪካ ኤምባሲ ፊትለፊት)፣ አዲስ አበባ
   </p>
 </div>
 

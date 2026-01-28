@@ -9,11 +9,14 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Login  from   "./pages/Login" ;
 import Dashboard  from  "./pages/Dashboard";
+import bg from "../public/image.jpg";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-white text-gray-900">
-      <Navbar />
+    <div className="flex flex-col min-h-screen bg-cover bg-center bg-no-repeat "
+     style={{ backgroundImage: `url(${bg})` }}>
+       <Navbar />
+
       <main className="pt-16">
         <Routes>
           <Route path="/" element={<Home />} />

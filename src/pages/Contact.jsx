@@ -159,8 +159,8 @@ export default function Contact() {
       {/* Google Map */}
       <div className="max-w-3xl mx-auto rounded-lg overflow-hidden shadow-lg mt-12 relative z-10" data-aos="fade-up" data-aos-delay="600">
         <iframe
-          title="MRAF Multimedia Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12773.847173003325!2d38.7676114!3d9.0286635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8597f44b7f77%3A0x1a2e5b1b9c8a0f7d!2sBole%2C%20Addis%20Ababa!5e0!3m2!1sen!2set!4v1702332000000!5m2!1sen!2set"
+          title="Gulele market center"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12773.847173003325!2d38.7676114!3d9.0286635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8597f44b7f77%3A0x1a2e5b1b9c8a0f7d!2sLideta%20Sdst%20kilo%2C%20Addis%20Ababa!5e0!3m2!1sen!2set!4v1702332000000!5m2!1sen!2set"
           width="100%"
           height="350"
           className="border-0"

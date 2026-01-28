@@ -39,9 +39,9 @@ export default function Services() {
         <span className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-32 h-1 from-blue-500 to-purple-500 rounded-full"></span>
       </h2>
 <div className="flex flex-col md:flex-row gap-4 md:gap-6 w-full">
-  <img src={img1}  alt="" className="w-full md:w-1/3 object-cover rounded-lg" />
-  <img src={img3} alt="" className="w-full md:w-1/3 object-cover rounded-lg" />
-  <img src={img4} alt="" className="w-full md:w-1/3 object-cover rounded-lg" />
+  <img src={img1}  alt="" className="w-full md:w-1/3 object-cover rounded-lg h-130" />
+  <img src={img3} alt="" className="w-full md:w-1/3 object-cover rounded-lg h-130" />
+  <img src={img4} alt="" className="w-full md:w-1/3 object-cover rounded-lg h-130" />
 </div>
       {/* Services Grid */}
       <div className="max-w-7xl w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 px-6 justify-items-center">
