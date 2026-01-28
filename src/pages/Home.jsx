@@ -27,7 +27,7 @@ export default function Hero() {
         className="text-5xl md:text-6xl font-bold mb-6 relative"
         data-aos="fade-up"
       >
-        መገናኛ <span className="text-blue-500">ባሕላዊ አልባሳት</span> to{" "}
+        ጉለሌ <span className="text-blue-500">የገበያ ማዕከል</span> to{" "}
         <span className="text-purple-500">መሸጫ</span>
         <span className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-32 h-1 from-accent to-pink-500 rounded-full"></span>
       </h1>

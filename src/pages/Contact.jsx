@@ -118,7 +118,7 @@ export default function Contact() {
 
       {/* Subheading */}
       <p className="text-gray-300 mb-12 max-w-xl mx-auto relative z-10" data-aos="fade-up" data-aos-delay="100">
-        Let’s bring your idea to life. Contact <span className="font-semibold text-white">መገናኛ የባህላዊ አልባሳት መሸጫ</span> today!
+        Let’s bring your idea to life. Contact <span className="font-semibold text-white">ጉለሌ የገበያ ማዕከል</span> today!
       </p>
 
       {/* Buttons */}

@@ -82,7 +82,7 @@ export default function AboutPage() {
           data-aos="fade-up"
         >
           <h1 className="text-4xl md:text-5xl font-extrabold mb-6 text-blue-400">
-            መገናኛ የባህላዊ አልባሳት መሸጫ          </h1>
+            ጉለሌ የገበያ ማዕከል          </h1>
           <p className="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed">
             አስተማማኝ እና ህጋዊ አገልግሎት በጥራት
           </p>
