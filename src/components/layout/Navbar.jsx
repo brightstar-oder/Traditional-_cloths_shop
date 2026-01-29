@@ -106,9 +106,9 @@ export default function Navbar() {
 
       {/* MOBILE MENU */}
       <div
-        className={`md:hidden bg-emerald-500 fixed top-0 right-0 h-full w-64 ${mobileBg}
+        className={`md:hidden fixed top-0 right-0 h-full w-30 ${mobileBg}
           shadow-lg transform transition-transform duration-300
-          ${isOpen ? "translate-x-45" : "translate-x-90"}`}
+          ${isOpen ? "rotate-360" : "translate-90"}`}
       >
         <div className="flex flex-col px-6 py-8 space-y-4">
           <button
@@ -121,14 +121,14 @@ export default function Navbar() {
           {links.map((link) => {
             if (link.isLogin) {
               return (
-                <button
+                <button className ="bg-emerald-950"
                   key={link.name}
                   onClick={() => {
                     setIsOpen(false);
                     navigate(link.to);
                   }}
-                  className="w-full py-2 rounded-full font-medium flex items-center justify-center gap-2
-                    bg-blue-600 text-white hover:bg-blue-700 transition text-sm"
+                  className="w-full py-2 bg-black rounded-full font-medium flex items-center justify-center gap-2
+                   text-white hover:bg-blue-700 transition text-sm"
                 >
                   <HiLockClosed className="w-4 h-4" />
                   {link.name}
