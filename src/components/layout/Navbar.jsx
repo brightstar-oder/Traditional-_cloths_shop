@@ -106,7 +106,7 @@ export default function Navbar() {
 
       {/* MOBILE MENU */}
       <div
-        className={`md:hidden fixed top-0 right-0 h-full w-64 ${mobileBg}
+        className={`md:hidden bg-emerald-500 fixed top-0 right-0 h-full w-64 ${mobileBg}
           shadow-lg transform transition-transform duration-300
           ${isOpen ? "translate-x-0" : "translate-x-full"} z-40`}
       >

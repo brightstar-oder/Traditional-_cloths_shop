@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import img1 from "../assets/image10.jpg";
 import img3 from "../assets/imagee4.jpg";
 import img4 from "../assets/imagee13.jpg";
+import Banner from "../components/ui/Banner";
 export default function Hero() {
   const navigate = useNavigate();
 
@@ -21,6 +22,7 @@ export default function Hero() {
       id="home"
       className="py-24 bg-gray-900 text-gray-100 flex flex-col items-center px-6"
     >
+
       {/* Heading */}
       <h1
         className="text-5xl md:text-6xl font-bold mb-6 relative"
@@ -30,7 +32,8 @@ export default function Hero() {
         <span className="text-purple-500"> ባህላዊ ልብሶች መሸጫ</span>
         <span className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-32 h-1 from-accent to-pink-500 rounded-full"></span>
       </h1>
-
+          {/*Banner */}
+          <Banner className="mb-6"/>
       {/* Subheading */}
       <p
         className="text-gray-300 text-xl max-w-2xl text-center mb-10"

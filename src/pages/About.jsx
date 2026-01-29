@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaEye, FaBullseye, FaStar } from "react-icons/fa"; // Icons for Vision, Mission, Core Values
-
+import Banner from "../components/ui/Banner";
 // Founders’ images
 import berihuPhoto from "../assets/images/berihu.jpg";
 import hadushPhoto from "../assets/ሙኡዝ.jpg";
@@ -74,7 +74,7 @@ export default function AboutPage() {
 
   return (
     <div className="relative text-gray-100 font-sans bg-gradient-to-br from-gray-900 via-gray-800 to-black overflow-x-hidden">
-
+      <Banner/>
       {/* Hero Section */}
       <section className="relative h-screen flex justify-center items-center px-4">
         <div

@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { HiPhone, HiMail, HiChat } from "react-icons/hi";
-
+import Banner from "../components/ui/Banner";
 export default function Contact() {
   const sectionRef = useRef();
   const particlesRef = useRef([]);
@@ -181,6 +181,7 @@ export default function Contact() {
           animation: gradient-x 15s ease infinite;
         }
       `}</style>
+      <Banner/>
     </section>
   );
 }

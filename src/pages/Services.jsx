@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Card from "../components/ui/Card";
+import Banner from "../components/ui/Banner";
 import {
   HiVideoCamera,
   HiColorSwatch,
@@ -32,10 +33,10 @@ export default function Services() {
 
   return (
     <section className="py-24 bg-gray-900 text-gray-100 flex flex-col items-center">
-      
+       <Banner/>
       {/* Heading */}
       <h2 className="text-5xl font-bold mb-16 relative" data-aos="fade-up">
-        Our Services
+        የምናቀርባቸው አልባሳት
         <span className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-32 h-1 from-blue-500 to-purple-500 rounded-full"></span>
       </h2>
 <div className="flex flex-col md:flex-row gap-4 md:gap-6 w-full">
