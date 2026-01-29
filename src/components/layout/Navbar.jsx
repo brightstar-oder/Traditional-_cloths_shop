@@ -108,7 +108,7 @@ export default function Navbar() {
       <div
         className={`md:hidden bg-emerald-500 fixed top-0 right-0 h-full w-64 ${mobileBg}
           shadow-lg transform transition-transform duration-300
-          ${isOpen ? "translate-x-0" : "translate-x-full"} z-40`}
+          ${isOpen ? "translate-x-45" : "translate-x-90"}`}
       >
         <div className="flex flex-col px-6 py-8 space-y-4">
           <button
