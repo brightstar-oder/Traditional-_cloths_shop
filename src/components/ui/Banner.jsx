@@ -1,31 +1,23 @@
 import React from "react";
 import img1 from "../../assets/photo_2026-01-28_06-07-29.jpg";
 import { Link } from "react-router-dom";
-export default function Card({ title, description, icon, isFeatured, children }) {
+
+export default function Card() {
   return (
-    <section class="mb-20 ml-0 min-h-screen bg-gradient-to-r from-slate-900 to-black text-white flex items-center">
-  <div class="max-w-full mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-    <div class="space-y-6 animate-fade-in">
-      <h1 class="text-4xl md:text-5xl font-bold leading-tight">
-        የተለያዩ ባህላዊ አልባሳት በገበያችን ይምረጡ
-      </h1>
-      <p class="text-gray-300 text-lg">
-        ሁሉም አይነት ባህላዊ ልብሶች እናቀርባለን
-      </p>
-      <Link to="/Service">
-      <button class="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 transition rounded-xl">
-        ይጎበኙን
-      </button></Link>
-    </div>
-    <div class="flex justify-center animate-float">
+    <section className="relative w-full h-[55vh] md:h-[65vh] overflow-hidden bg-black">
+      
+      {/* Image (top protected) */}
       <img
         src={img1}
-        alt="Developer Illustration"
-        class="w-[320px] md:w-[420px] drop-shadow-2xl"
+        alt="Traditional Clothing"
+        className="inset-0 w-full h-full object-cover object-top mb-13"
       />
-    </div>
 
-  </div>
-</section>
+      {/* Bottom gradient (stronger) */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
+
+      {/* Bottom content (raised to avoid collision) */}
+
+    </section>
   );
 }
